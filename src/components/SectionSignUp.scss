@@ -1,0 +1,102 @@
+.sectionSignUp{
+    margin-top: 100px;
+    background-image: url("https://c0.wallpaperflare.com/preview/295/332/969/flowers-flat-lay-flower-flatlay.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    .containerSign{
+        position: absolute;
+        text-align: center;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%);
+        .title{
+            h5{
+                font-weight: 400;
+                color: rgba(121, 179, 138, 1);
+            }
+        }
+        .formSign{
+            margin: 30px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        input{
+            height: 40px;
+            padding: 1px 25px;
+            border: 1px solid #c8c8c8;
+        }
+        .btnSign{
+            height: 40px;
+            padding: 1px 25px;
+            border: 1px solid rgba(121, 179, 138, 1);
+            background-color: rgba(121, 179, 138, 1);
+            color: white;
+            &:hover{
+                background-color: white;
+                color: rgba(121, 179, 138, 1);
+                transition: 0.7s;
+            }
+        }
+        .iconSign{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            .icons{
+                font-size: 20px;
+                color: #9b9a9a;
+                border: 1px solid #9b9a9a;
+                padding: 5px;
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+            }
+            .fcb{
+                &:hover{
+                    background-color: #365493;
+                    border: 1px solid #365493;
+                    transition: 0.4s;
+                    color: white;
+                }
+            }
+            .ins{
+                &:hover{
+                    background-color: rgb(131,58,180);
+                    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+                    border: 1px solid linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+                    transition: 0.4s;
+                    color: white;
+                }
+            }
+            .twt{
+                &:hover{
+                    background-color: #3cf;
+                    border: 1px solid #3cf;
+                    transition: 0.4s;
+                    color: white;
+                }
+            }
+            .lnk{
+                &:hover{
+                    background-color: #0077b5;
+                    border: 1px solid #0077b5;
+                    transition: 0.4s;
+                    color: white;
+                }
+            }
+            .pnt{
+                &:hover{
+                    background-color: #cb2027;
+                    border: 1px solid #cb2027;
+                    transition: 0.4s;
+                    color: white;
+                }
+            }
+        }
+    }
+}

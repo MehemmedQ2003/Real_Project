@@ -1,0 +1,71 @@
+.sectionCategories .title {
+  text-align: center;
+}
+.sectionCategories .title h5 {
+  color: rgb(121, 179, 138);
+}
+.sectionCategories .title p {
+  font-weight: 600;
+  font-size: 17px;
+}
+.sectionCategories .slickSlider {
+  padding: 40px;
+}
+.sectionCategories .slickSlider .sliders {
+  padding: 10px;
+}
+.sectionCategories .slickSlider .sliders .slider {
+  padding: 10px;
+}
+.sectionCategories .slickSlider .sliders .slider .intoSlider .imgScreen {
+  position: relative;
+}
+.sectionCategories .slickSlider .sliders .slider .intoSlider .imgScreen .overlayScreen {
+  position: relative;
+}
+.sectionCategories .slickSlider .sliders .slider .intoSlider .imgScreen .overlayScreen button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  background-color: rgb(121, 179, 138);
+  padding: 10px 30px;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: white;
+}
+.sectionCategories .slickSlider .sliders .slider .intoSlider .imgScreen .overlay {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  position: absolute;
+  font-weight: bolder;
+  font-size: 18px;
+  transition: 0.5s ease;
+}
+.sectionCategories .slickSlider .sliders .slider .intoSlider .imgScreen img {
+  width: 100%;
+}
+.sectionCategories .slickSlider .sliders .slider .intoSlider .imgScreen:hover img {
+  opacity: 0.4;
+}
+.sectionCategories .slickSlider .sliders .slider .intoSlider .imgScreen:hover .overlay {
+  font-weight: bolder;
+  font-size: 18px;
+  opacity: 1;
+  display: block;
+}
+.sectionCategories .slickSlider .sliders .slider .intoSlider .imgScreen:hover button {
+  display: none;
+}
+.sectionCategories .slickSlider .sliders .slider .intoSlider .productPrice {
+  text-align: center;
+  margin: 10px 0;
+}
+.sectionCategories .slickSlider .sliders .slider .intoSlider .productPrice a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.7;
+}/*# sourceMappingURL=SectionCategories.css.map */

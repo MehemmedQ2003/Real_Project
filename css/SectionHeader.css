@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400");
+.sectionHeader {
+  margin-bottom: 40px;
+}
+.sectionHeader .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  list-style: none;
+  font-weight: 700;
+  margin: 15px auto;
+  gap: 30px;
+}
+.sectionHeader .wrapper a {
+  color: inherit;
+  text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+  transition: text-decoration-color 300ms;
+}
+.sectionHeader .wrapper a:hover {
+  text-decoration-color: rgb(0, 0, 0);
+}
+.sectionHeader .side {
+  margin: 40px 0;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-areas: repeat(6, 100px);
+  height: 500px;
+  color: black;
+  font-weight: bolder;
+}
+.sectionHeader .side p {
+  color: rgb(121, 179, 138);
+  text-transform: uppercase;
+}
+.sectionHeader .side a {
+  color: black;
+}
+.sectionHeader .side a:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+  transition: 0.4s;
+}
+.sectionHeader .side .left1 {
+  background-image: url("https://woodmartcdn-cec2.kxcdn.com/handmade/wp-content/uploads/sites/3/2018/10/banner-1-opt.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px;
+  grid-area: 1/1/3/3;
+}
+.sectionHeader .side .right2 {
+  background-image: url("https://woodmartcdn-cec2.kxcdn.com/handmade/wp-content/uploads/sites/3/2018/10/finaly-banner-handmade-9-opt.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px;
+  grid-area: 1/3/2/5;
+}
+.sectionHeader .side .right3 {
+  background-image: url("https://woodmartcdn-cec2.kxcdn.com/handmade/wp-content/uploads/sites/3/2018/10/finaly-banner-handmade-7-opt.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px;
+  grid-area: 2/3/3/4;
+}
+.sectionHeader .side .right4 {
+  background-image: url("https://woodmartcdn-cec2.kxcdn.com/handmade/wp-content/uploads/sites/3/2018/10/finaly-banner-handmade-8-opt.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px;
+  grid-area: 2/4/3/5;
+}
+
+@media screen and (max-width: 1000px) {
+  .sectionHeader {
+    margin-bottom: 1050px;
+  }
+  .sectionHeader .gridContainer .side {
+    grid-template-areas: repeat(1, 100px);
+  }
+  .sectionHeader .gridContainer .side p {
+    color: rgb(121, 179, 138);
+    text-transform: uppercase;
+  }
+  .sectionHeader .gridContainer .side a {
+    color: black;
+  }
+  .sectionHeader .gridContainer .side a:hover {
+    opacity: 0.5;
+    transition: 0.4s;
+  }
+  .sectionHeader .gridContainer .side .left1 {
+    grid-area: 1/1/2/2;
+    height: 450px;
+  }
+  .sectionHeader .gridContainer .side .right2 {
+    grid-area: 2/1/3/2;
+    height: 450px;
+  }
+  .sectionHeader .gridContainer .side .right3 {
+    grid-area: 3/1/4/2;
+    height: 450px;
+  }
+  .sectionHeader .gridContainer .side .right4 {
+    display: none;
+  }
+}/*# sourceMappingURL=SectionHeader.css.map */

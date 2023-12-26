@@ -1,0 +1,20 @@
+.Navbar{
+    background-color:  rgba(121, 179, 138, 1);
+    font-weight: 400;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+
+    width: 100%;
+    .rightSide{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        align-items: center;
+        .icons{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+}

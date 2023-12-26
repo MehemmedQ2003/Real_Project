@@ -1,0 +1,19 @@
+.Navbar {
+  background-color: rgb(121, 179, 138);
+  font-weight: 400;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+}
+.Navbar .rightSide {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+.Navbar .rightSide .icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}/*# sourceMappingURL=NavbarTOP.css.map */
