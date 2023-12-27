@@ -1,5 +1,6 @@
 .sectionProducts {
   margin-top: 100px;
+  margin-bottom: 100px;
   .title {
     text-align: center;
     h5 {
@@ -38,6 +39,9 @@
     }
   }
   .slickSlider {
+    .slick-arrow{
+      background-color: rgb(121, 179, 138);
+    }
     padding: 40px;
     .sliders {
       padding: 10px;
